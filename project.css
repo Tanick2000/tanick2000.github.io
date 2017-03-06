@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-h1{font-family: 'Lobster', cursive;}
+h1{
+  font-family: 'Lobster', cursive;
+}
 body {}
 h1{}
 h2{}
