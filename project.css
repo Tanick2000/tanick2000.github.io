@@ -1,17 +1,23 @@
-
-
 h1{
   font-family: 'Lobster', cursive;
   text-align: center;
   font-size:90px;
   margin:60px 0 0 0;
-  color:black;
+  color:white;
+  padding-bottom:0px;
 }
+
 h2{font-family:'Lobster', cursive;
 text-align:center;
 font-size:90px
 margin: 60px 0 0 0;
-color: black;}
+color: white;
+padding-bottom: 20px;}
+
+p{text-align: center;
+padding-top: 10px;}
+
+.col-centered {text-align: center;}
 
 
 
@@ -20,13 +26,20 @@ color: black;}
 	font-size:20px;
 	font-weight:bold;}
 
+.navbar-right {color: rgb(0, 0, 0);
+	font-family: 'Indie Flower';
+	font-size:20px;
+	font-weight:bold;}
+
+.dropdown-menu{font-size:23px;}
+
 .navbar-default .navbar-brand{
 	color: white;
 	font-family: 'Indie Flower', cursive;
 	font-size:20px;
 font-weight:bold;}
 
-.navbar{background-color: rgb(8, 135, 10);}
+.navbar{background-color:#b8babc;}
 
 .col-md-4{font-family:'Muli';
 font-size:30px;
@@ -34,12 +47,33 @@ font-weight: bold
 color: black;}
 
 body {
-background-color: #ffffff;
-background-image:url(arboles1.jpg);
+background-color: black;
+
 background-repeat: no-repeat;
 background-position: top center;
 }
+
+
+.logo{width:40px;
+height:40px;}
+
+.medium {width:70%;
+height:70%;}
+
+a:visited {color:white;}
+
+a {color: #0CCC49;}
+a:hover {color: #0CCC49;}
+
+.navbar .nav > li > a {
+   
+    line-height: 19px;
+ 
+    text-decoration: none;
+  
+    color:  black;
 }
+
 
 
 
