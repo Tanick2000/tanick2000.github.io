@@ -105,4 +105,45 @@ p{text-align: center;
 
 							}
 
+							#fname {
+								color: black;
+							}
+							#lname {
+								color: black;
+							}
+							.gender {
+								color: white;
+								font-family: 'Indie Flower', cursive;
+								font-size:15px;
+								font-weight:bold;
+								text-align: center;
+
+							}
+
+							li {
+								display: inline;
+								padding: 0px 10px 0px 10px;
+							}
+
+							.button {
+								font-family: 'Indie Flower', cursive;
+								text-align: center;
+								padding: 10px 24px;
+								background-color: black;
+								border: 0px;
+								color: white;
+								font-size: 16px;
+								display: inline-block;
+								font-size: 16px;
+								margin: 4px 2px;
+								-webkit-transition-duration: 0.3s;
+								-moz-transition-duration: 0.3s;
+								transition-duration: 0.3s;
+								cursor: pointer;
+							}
+
+							.button:hover {
+								background-color: #C77474;
+								color: white;
+							}
 
