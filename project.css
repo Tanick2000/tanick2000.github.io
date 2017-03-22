@@ -75,6 +75,7 @@ p{text-align: center;
 							}
 
 							.alo{
+								font-size: 15px;
 								height:200px; 
 								background:#000 url("Tania.jpg");
 								background-size: 50%;
@@ -83,10 +84,12 @@ p{text-align: center;
 								background-position:center;
 								color:white;
 								font-family:'Muli'; 
-								text-shadow: black 0.1em 0.1em 0.2em
+								text-shadow: black 0.1em 0.1em 0.2em;
+								text-align: center;
 							}
 
 							.hello {
+								font-size: 15px;
 								height:200px; 
 								background:#000 url("barbara.jpg");
 								background-size: 50%;
@@ -109,57 +112,74 @@ p{text-align: center;
 							.input{
 								color:black;
 							}
-						}
-						.gender {
-							color: white;
-							font-family: 'Indie Flower', cursive;
-							font-size:15px;
-							font-weight:bold;
-							text-align: center;
 
-						}
+							.gender {
+								color: white;
+								font-family: 'Indie Flower', cursive;
+								font-size:15px;
+								font-weight:bold;
+								text-align: center;
 
-						li {
-							display: inline;
-							padding: 0px 10px 0px 10px;
-						}
+							}
 
-						.button {
-							font-family: 'Indie Flower', cursive;
-							text-align: center;
-							padding: 10px 24px;
-							background-color: black;
-							border: 0px;
-							color: white;
-							font-size: 16px;
-							display: inline-block;
-							font-size: 16px;
-							margin: 4px 2px;
-							-webkit-transition-duration: 0.3s;
-							-moz-transition-duration: 0.3s;
-							transition-duration: 0.3s;
-							cursor: pointer;
-						}
+							li {
+								display: inline;
+								padding: 0px 10px 0px 10px;
+							}
 
-						.button:hover {
-							background-color: #C77474;
-							color: white;
-						}
+							.button {
+								font-family: 'Indie Flower', cursive;
+								text-align: center;
+								padding: 10px 24px;
+								background-color: black;
+								border: 0px;
+								color: white;
+								font-size: 16px;
+								display: inline-block;
+								font-size: 16px;
+								margin: 4px 2px;
+								-webkit-transition-duration: 0.3s;
+								-moz-transition-duration: 0.3s;
+								transition-duration: 0.3s;
+								cursor: pointer;
+							}
 
-						small {
-							opacity: 0;
+							.button:hover {
+								background-color: #C77474;
+								color: white;
+							}
+
+/*						small {
+							opacity: 1;
 							font-size: 15px;
 							position: relative;
 							left: 0px;
-							top: -30px;
+							/*top: -30px;*/
+							*/
 						}
-					}
 
-					.show-description p {
-						height: 150px;
-					}
+/*						.show-description p.boxtext {
+							height: 150px;
+							background-color: gray;
+						}
 
-					.show-description small {
-						opacity: 1;
-					}
+						.show-description small {
+							opacity: 1;
+							}*/
 
+							.boxtext p {
+								display: inline-block;
+								margin: 0 auto;
+
+
+							}
+
+							.boxtext small{
+								background-color: #C77474;
+								display:none;
+							}
+							p.boxtext{
+
+								opacity: 1;
+
+							}

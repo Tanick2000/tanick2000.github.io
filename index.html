@@ -80,6 +80,11 @@
           <p><a href="#">Who is She?</a></p>
         </div>
 
+<!--         <div class=" col-lg-3 col-md-3 col-sm-3 col-centered">
+          <img class="img-circle medium" src="food2.jpg">
+          <p><a href="#">She Eats</a></p>
+        </div> -->
+
         <div class=" col-lg-4 col-md-4 col-sm-4 col-centered">
           <img class="img-circle medium" src="gran.jpg">
           <p><a href="#">USA</a></p>
@@ -95,17 +100,16 @@
 
   <div class="alo" id="main">
     <h2>Tania Herrera</h2>
-    <div class="transbox">
-    <small><p>Tania Herrera is a journalist with more than <br> 4 years of experience in newspapers, magazines, and digital media <br>
+    <small><p class="boxtext">Tania Herrera is a journalist with more than <br> 4 years of experience in newspapers, magazines, and digital media <br>
      She is currently studying a masters in Magazine Journalism at the University of Sheffield <br>
-    Tania loves to travel around the World, especially through Latin America.<br> 
-    She has been to Chile, México, Venezuela, Argentina, Perú, Bolivia, Ecuador and Colombia </small></p>
-  </div>
-  </div>
+     Tania loves to travel around the World, especially through Latin America.<br> 
+     She has been to Chile, México, Venezuela, Argentina, Perú, Bolivia, Ecuador and Colombia </small></p>
+   </div>
+ </div>
 
-  <div class="hello" class="transbox" id="main">
-    <h2>Barbara Ojei Agwaziam</h2>
-    <small><p> Barbara is doing her Masters in Biology at the University of Sheffield<br>
+ <div class="hello" id="main">
+  <h2>Barbara Ojei Agwaziam</h2>
+  <small><p class= "boxtext"> Barbara is doing her Masters in Biology at the University of Sheffield<br>
     She spent a year studying in Philadelphia, where she was able to pursue her passion of travelling<br>
     She has been to New York, Boston, Chicago,New Orleans and San Francisco to name a few <br>
     Aside from travelling another passion dear to her heart is cooking</small></p>
@@ -137,7 +141,10 @@
 
     <script>
       $('div#main').on('click', function () {
-        $(this).toggleClass('show-description');
+        $(this).find('small').toggle();
+
+        //$('div#main p').css('background', 'grey')
+        //$('.boxtext p').show();
       });
     </script>
 
