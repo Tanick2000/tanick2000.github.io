@@ -1,10 +1,10 @@
 h1{
-  font-family: 'Lobster', cursive;
-  text-align: center;
-  font-size:90px;
-  margin:60px 0 0 0;
-  color:white;
-  padding-bottom:0px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size:90px;
+	margin:60px 0 0 0;
+	color:white;
+	padding-bottom:0px;
 }
 
 h2{font-family:'Lobster', cursive;
@@ -17,83 +17,92 @@ padding-bottom: 20px;}
 
 
 p{text-align: center;
-padding-top: 10px;}
+	padding-top: 10px;}
 
-.col-centered {text-align: center;}
-
-
-
-.btn {color: rgb(0, 0, 0);
-	font-family: 'Indie Flower', cursive;
-	font-size:20px;
-	font-weight:bold;}
-
-.navbar-right {color: rgb(0, 0, 0);
-	font-family: 'Indie Flower';
-	font-size:20px;
-	font-weight:bold;}
-
-.dropdown-menu{font-size:23px;}
-
-.navbar-default .navbar-brand{
-	color: white;
-	font-family: 'Indie Flower', cursive;
-	font-size:20px;
-font-weight:bold;}
-
-.navbar{background-color:#b8babc;}
-
-.col-md-4{font-family:'Muli';
-font-size:30px;
-font-weight: bold
-color: black;}
-
-body {
-background-color: black;
-
-background-repeat: no-repeat;
-background-position: top center;}
+	.col-centered {text-align: center;}
 
 
-.logo{width:40px;
-height:40px;}
 
-.medium {width:70%;
-height:70%;}
+	.btn {color: rgb(0, 0, 0);
+		font-family: 'Indie Flower', cursive;
+		font-size:20px;
+		font-weight:bold;}
 
-a:visited {color:white;}
+		.navbar-right {color: rgb(0, 0, 0);
+			font-family: 'Indie Flower';
+			font-size:20px;
+			font-weight:bold;}
 
-a {color: #0CCC49;}
-a:hover {color: #0CCC49;}
+			.dropdown-menu{font-size:23px;}
 
-.navbar .nav > li > a {
-   
-    line-height: 19px;
- 
-    text-decoration: none;
-  
-    color:  black;
-}
+			.navbar-default .navbar-brand{
+				color: white;
+				font-family: 'Indie Flower', cursive;
+				font-size:20px;
+				font-weight:bold;}
 
-.alo{height:200px; 
-background:#000 url("Tania.jpg");
-background-size: 50%;
-background-repeat: no-repeat;
-margin:0 auto;
-background-position:center;
-color:white;
-font-family:'Muli';
-}
+				.navbar{background-color:#b8babc;}
 
-.hello {height:200px; 
-background:#000 url("barbara.jpg");
-background-size: 50%;
-background-repeat: no-repeat;
-margin:0 auto;
-background-position:center;
-color:white;
-font-family:'Muli';
+				.col-md-4{font-family:'Muli';
+				font-size:30px;
+				font-weight: bold
+				color: black;}
 
-}
+				body {
+					background-color: black;
+
+					background-repeat: no-repeat;
+					background-position: top center;}
+
+
+					.logo{width:40px;
+						height:40px;}
+
+						.medium {width:70%;
+							height:70%;}
+
+							a:visited {color:white;}
+
+							a {color: #0CCC49;}
+							a:hover {color: #0CCC49;}
+
+							.navbar .nav > li > a {
+
+								line-height: 19px;
+
+								text-decoration: none;
+
+								color:  black;
+							}
+
+							.alo{height:200px; 
+								background:#000 url("Tania.jpg");
+								background-size: 50%;
+								background-repeat: no-repeat;
+								margin:0 auto;
+								background-position:center;
+								color:white;
+								font-family:'Muli';
+							}
+
+							.hello {height:200px; 
+								background:#000 url("barbara.jpg");
+								background-size: 50%;
+								background-repeat: no-repeat;
+								margin:0 auto;
+								background-position:center;
+								color:white;
+								font-family:'Muli';
+
+							}
+
+							.join {
+								color: white;
+								font-family: 'Indie Flower', cursive;
+								font-size:15px;
+								font-weight:bold;
+								text-align: center;
+
+							}
 
 
