@@ -50,10 +50,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">USA <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">New York</a></li>
-
-              <li role="separator" class="divider"></li>
               <li><a href="#">New Orleans</a></li>
-              <li role="separator" class="divider"></li>
               <li><a href="#">San Francisco</a></li>
             </ul>
           </li>
@@ -61,10 +58,7 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Latin America <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Mexico</a></li>
-
-              <li role="separator" class="divider"></li>
               <li><a href="#">Peru</a></li>
-              <li role="separator" class="divider"></li>
               <li><a href="#">Argentina</a></li>
 
             </ul>
@@ -87,7 +81,7 @@
         </div>
 
         <div class=" col-lg-4 col-md-4 col-sm-4 col-centered">
-          <img class="img-circle medium" src="grancañon.jpg">
+          <img class="img-circle medium" src="gran.jpg">
           <p><a href="#">USA</a></p>
         </div>
 
@@ -97,40 +91,54 @@
         </div>
       </div>
     </div>
-  </article>
+  </article>`
   
-  <div class="alo">
+  <div class="alo" id="main">
     <h2>Tania Herrera</h2>
-    <p>Tania Herrera is a journalist with more than 4 years of experience in newspapers, magazines, and digital media</p>
-    <p> She is currently studying a masters in Magazine Journalism at the University of Sheffield </p>
-    <p> Tania loves to travel around the World, especially through Latin America. She has been to Chile, México, Venezuela, Argentina, Perú, Bolivia, Ecuador and Colombia </p>
+    <small><p>Tania Herrera is a journalist with more than 4 years of experience in newspapers, magazines, and digital media <br>
+     She is currently studying a masters in Magazine Journalism at the University of Sheffield <br>
+    Tania loves to travel around the World, especially through Latin America.<br> 
+    She has been to Chile, México, Venezuela, Argentina, Perú, Bolivia, Ecuador and Colombia </small></p>
   </div>
 
-  <div class="hello">
-    <h2>Barbara Agwaziam</h2>
-    <p>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</p>
+  <div class="hello" id="main">
+    <h2>Barbara Ojei Agwaziam</h2>
+    <small><p> Barbara is doing her Masters in Biology at the University of Sheffield<br>
+    She spent a year studying in Philadelphia, where she was able to pursue her passion of travelling<br>
+    She has been to New York, Boston, Chicago,New Orleans and San Francisco to name a few <br>
+    Aside from travelling another passion dear to her heart is cooking</small></p>
   </div>
   
-  <div class= row>
+  <div class= "row">
     <div class= "join">
 
       <p>To be considereed to join this exclusive group of female travels please submit your information below.</p>
+
+
       <form id="myForm" action="/action_page.php">
         First name: <input type="text" name="fname" class= "input"><br>
         Last name: <input type="text" name="lname" class= "input"><br>
-        <input type="radio" name="gender" value="male" checked> Female<br>
-        <input type="radio" name="gender" value="female"> Male<br>
-        <input type="radio" name="gender" value="other"> Other<br>
+        <input type="radio" name="gender" value="male"checked> Female<b>
+        <input type="radio" name="gender" value="female"> Male<b>
+        <input type="radio" name="gender" value="other"> Other<b>
       </div>
       <div class=".col-6 .col-sm-4 text-center">
         <input type="button" class= "button" onclick="myFunction()" value="Submit form"> </form>
       </div>
     </div>
+
     <script>
       function myFunction() {
         document.getElementById("myForm").submit();
       }
     </script>
+
+    <script>
+      $('div#main').on('click', function () {
+        $(this).toggleClass('show-description');
+      });
+    </script>
+
   </div>
 
 </body>       
