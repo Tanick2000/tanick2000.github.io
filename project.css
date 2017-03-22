@@ -148,7 +148,9 @@ p{text-align: center;
 								background-color: #C77474;
 								color: white;
 							}
-
+							.social {
+								text-align: center;
+							}
 /*						small {
 							opacity: 1;
 							font-size: 15px;
@@ -178,3 +180,5 @@ p{text-align: center;
 							p.boxtext{
 								opacity: 1;
 							}
+
+
