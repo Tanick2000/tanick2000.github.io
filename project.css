@@ -82,7 +82,7 @@ p{text-align: center;
 								margin:0 auto;
 								background-position:center;
 								color:white;
-								font-family:'Muli';
+								font-family:'Muli'; 
 								text-shadow: black 0.1em 0.1em 0.2em
 							}
 
@@ -148,13 +148,18 @@ p{text-align: center;
 
 						small {
 							opacity: 0;
+							font-size: 15px;
+							position: relative;
+							left: 0px;
+							top: -30px;
 						}
+					}
 
-						.show-description p {
-							height: 150px;
-						}
+					.show-description p {
+						height: 150px;
+					}
 
-						.show-description small {
-							opacity: 1;
-						}
+					.show-description small {
+						opacity: 1;
+					}
 
