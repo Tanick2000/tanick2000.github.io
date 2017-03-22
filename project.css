@@ -107,8 +107,8 @@ p{text-align: center;
 								font-size:15px;
 								font-weight:bold;
 								text-align: center;
-
 							}
+
 							.input{
 								color:black;
 							}
@@ -154,9 +154,7 @@ p{text-align: center;
 							font-size: 15px;
 							position: relative;
 							left: 0px;
-							/*top: -30px;*/
-							*/
-						}
+							/*top: -30px;}*/
 
 /*						.show-description p.boxtext {
 							height: 150px;
@@ -170,16 +168,13 @@ p{text-align: center;
 							.boxtext p {
 								display: inline-block;
 								margin: 0 auto;
-
-
 							}
 
 							.boxtext small{
 								background-color: #C77474;
 								display:none;
 							}
+
 							p.boxtext{
-
 								opacity: 1;
-
 							}
